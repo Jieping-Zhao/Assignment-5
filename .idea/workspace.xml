@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a594c2e-5ce1-44e8-adf7-97bce5edb525" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/CipherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/CipherController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/ElbonianCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/ElbonianCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Observable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -410,6 +408,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

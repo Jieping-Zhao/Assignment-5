@@ -10,6 +10,9 @@ public class ElbonianCipher implements Observer {
 	private String text;
 	protected Observable message;
 
+	public ElbonianCipher() {
+	}
+
 	public void setText(String text){
 
 	}
@@ -43,7 +46,7 @@ public class ElbonianCipher implements Observer {
 		converter.put('w', "L23");
 		converter.put('x', "L24");
 		converter.put('y', "L25");
-		converter.put('b', "L26");
+		converter.put('z', "L26");
 
 		converter.put('A', "U01");
 		converter.put('B', "U02");
