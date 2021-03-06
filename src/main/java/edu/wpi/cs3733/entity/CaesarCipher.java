@@ -16,7 +16,7 @@ public class CaesarCipher implements Observer {
 	}
 
 	@Override
-	public void notify(Observable text){
+	public void notify(Object object){
 
 	}
 }

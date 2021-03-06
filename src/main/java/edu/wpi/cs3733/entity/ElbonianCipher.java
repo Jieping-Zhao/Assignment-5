@@ -10,11 +10,8 @@ public class ElbonianCipher implements Observer {
 	private String text;
 	protected Observable message;
 
-	public ElbonianCipher() {
-	}
-
 	public void setText(String text){
-
+		this.text = text;
 	}
 
 	public String getText(){
@@ -87,10 +84,11 @@ public class ElbonianCipher implements Observer {
 		return sb.toString();
 	}
 
-	@Override
-	public void notify(Observable text){
-		this.message = text;
-		this.message.register(this);
-		this.text = message.getText();
+	public void notify(Object object){
+		String s = ((Message) object).getText();
+		setText(s);
+//		this.message = text;
+//		this.message.register(this);
+//		this.text = message.getText();
 	}
 }

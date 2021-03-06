@@ -3,4 +3,5 @@
  * Test-driven development is a good idea here.
  */
 public class CipherTests {
+
 }
