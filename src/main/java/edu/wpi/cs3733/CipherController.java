@@ -49,6 +49,7 @@ public class CipherController {
 	 */
 	@FXML
 	public void updateOutput(){
+		onTextUpdate();
 		caesarTextOut.setText(caesarCipher.getText());
 		elbonianTextOut.setText(elbonianCipher.getText());
 	}

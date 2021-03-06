@@ -10,6 +10,7 @@ public interface Observable {
 	 * @param o Object to register
 	 */
 	void register(Observer o);
+	String getText();
 
 	/**
 	 * Notify observers of change
