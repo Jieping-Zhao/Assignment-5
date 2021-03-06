@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5a594c2e-5ce1-44e8-adf7-97bce5edb525" name="Default" comment="too sleepy, putting in last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/CipherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/CipherController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/CaesarCipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/ElbonianCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/ElbonianCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MainView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CipherTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CipherTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObserverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObserverTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,18 +92,30 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548994963114" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment-5-Template" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CipherTests">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -260,6 +276,49 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2" />
     </configuration>
+    <configuration name="CipherTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CipherTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CipherTests.cipherTestIgnoreSpecial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CipherTests" />
+      <option name="METHOD_NAME" value="cipherTestIgnoreSpecial" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CipherTests.elbonianTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CipherTests" />
+      <option name="METHOD_NAME" value="elbonianTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CipherTests.elbonianTestLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CipherTests" />
+      <option name="METHOD_NAME" value="elbonianTestLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -340,6 +399,14 @@
       <recursive>false</recursive>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CipherTests" />
+        <item itemvalue="JUnit.CipherTests.elbonianTestLength" />
+        <item itemvalue="JUnit.CipherTests.elbonianTest1" />
+        <item itemvalue="JUnit.CipherTests.cipherTestIgnoreSpecial" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -365,6 +432,7 @@
       <workItem from="1588625250825" duration="291000" />
       <workItem from="1615036971388" duration="99000" />
       <workItem from="1615037076129" duration="7716000" />
+      <workItem from="1615054101250" duration="4430000" />
     </task>
     <task id="LOCAL-00001" summary="im so confused">
       <created>1615048206493</created>
@@ -436,6 +504,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="im so confused" />

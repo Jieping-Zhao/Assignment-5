@@ -7,12 +7,12 @@ import java.util.List;
  * Message class to hold clear text; you must implement the rest of the class
  */
 public class Message implements Observable {
-	private List<Observer> observers = new ArrayList<Observer>();
+	private final List<Observer> observers = new ArrayList<>();
 	private String text;
 
 	public void setText(String text){
 		this.text = text;
-
+		notifyObservers();
 	}
 
 	public String getText(){
@@ -20,14 +20,14 @@ public class Message implements Observable {
 	}
 
 	@Override
-	public void register(Observer o){
+	public void register(Observer o) {
 		observers.add(o);
 	}
 
 	@Override
 	public void notifyObservers(){
 		for (Observer observer: observers) {
-			observer.notify();
+			observer.notify(text);
 		}
 	}
 }
