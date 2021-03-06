@@ -20,6 +20,8 @@ public class ElbonianCipher implements Observer {
 	public String getText(){
 		StringBuilder sb = new StringBuilder();
 		LinkedList<Character> letters = new LinkedList<Character>();
+		LinkedList<Character> valid = new LinkedList<Character>();
+
 		HashMap<Character, String> converter = new HashMap<Character, String>();
 		converter.put('a', "L01");
 		converter.put('b', "L02");
